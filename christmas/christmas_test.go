@@ -58,14 +58,3 @@ func TestCreateVerse(t *testing.T) {
 		}
 	})
 }
-
-func TestAppendGift(t *testing.T) {
-	t.Run("appends the lastest gift to the global slice", func(t *testing.T) {
-		got := christmas.AppendGift("Two turtle doves,")
-		want := []string{"Two turtle doves,"}
-
-		if len(got) != len(want) {
-			t.Errorf("got %d, want %d", len(got), len(want))
-		}
-	})
-}
