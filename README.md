@@ -1,6 +1,6 @@
 ## 12DaysOfXmas
 
-	‘The Twelve Days of Christmas’ is a rootin’-tootin’, singalong Christmas carol that runs through the twelve days that make up the Christmas season – beginning on Christmas Day and ending on 6 January, the day before Epiphany.
+	‘The Twelve Days of Christmas’ is a rootin’-tootin’, singalong Christmas carol.
 
 	It’s a traditional English tune dating back to the 1700s, which some historians actually believe to have French origins.
 
