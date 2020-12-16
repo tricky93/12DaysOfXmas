@@ -1,7 +1,7 @@
 package christmas_test
 
 import (
-	christmas "12DaysOfXmas"
+	christmas "12DaysOfXmas/christmas"
 	"testing"
 )
 
@@ -44,14 +44,14 @@ func TestGetOrdinalNumber(t *testing.T) {
 func TestCreateVerse(t *testing.T) {
 	t.Run("returns the opening line of the verse when passed a day", func(t *testing.T) {
 		got := christmas.CreateOpeningLines("first")
-		want := "On the first day of Christmas,\nMy true love gave to me,\n"
+		want := "On the first day of Christmas,\nMy true love gave to me,"
 
 		if got != want {
 			t.Errorf("got %s, want %s", got, want)
 		}
 
 		got = christmas.CreateOpeningLines("fourth")
-		want = "On the fourth day of Christmas,\nMy true love gave to me,\n"
+		want = "On the fourth day of Christmas,\nMy true love gave to me,"
 
 		if got != want {
 			t.Errorf("got %s, want %s", got, want)

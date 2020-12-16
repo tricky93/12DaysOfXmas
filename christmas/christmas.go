@@ -11,14 +11,17 @@ var days = map[int]string{1: "first", 2: "second", 3: "third", 4: "fouth", 5: "f
 
 var song []string
 
+//GetGift returns a gift when passed a day
 func GetGift(day int) string {
 	return gifts[day]
 }
 
+//GetOrdinalNumber returns a ordinal when passed a day
 func GetOrdinalNumber(day int) string {
 	return days[day]
 }
 
+//CreateOpeningLines returns the opening lines to each verse
 func CreateOpeningLines(ordinal string) (openingLines string) {
 
 	lineOne := "On the " + ordinal + " day of Christmas,\n"
@@ -28,7 +31,8 @@ func CreateOpeningLines(ordinal string) (openingLines string) {
 
 }
 
-func PrintVerse() {
+//Sing prints the song to the terminal
+func Sing() {
 
 	var giftList []string
 
